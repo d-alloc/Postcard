@@ -60,6 +60,14 @@
                                     <action selector="sendMailButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SV8-UB-l4z"/>
                                 </connections>
                             </button>
+                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name Label" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vvh-S1-MNe">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="198" width="196" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -69,6 +77,7 @@
                                 <exclude reference="1J4-SO-kQS"/>
                                 <exclude reference="G96-tn-dxX"/>
                                 <exclude reference="W9h-Q7-C8u"/>
+                                <exclude reference="vvh-S1-MNe"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -78,6 +87,7 @@
                                 <include reference="1J4-SO-kQS"/>
                                 <include reference="G96-tn-dxX"/>
                                 <include reference="W9h-Q7-C8u"/>
+                                <include reference="vvh-S1-MNe"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,6 +97,7 @@
                         <outlet property="enterNameTextField" destination="G96-tn-dxX" id="PIL-3t-mI3"/>
                         <outlet property="mailButton" destination="W9h-Q7-C8u" id="cNr-0v-H3r"/>
                         <outlet property="messageLable" destination="L0E-Av-F52" id="Dzk-Gu-Mzn"/>
+                        <outlet property="nameLabel" destination="vvh-S1-MNe" id="HZB-NT-Ihj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
